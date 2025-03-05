@@ -1,0 +1,67 @@
+\usepackage{csquotes}
+\usepackage[
+    % backend=biber,
+    style=alphabetic,
+    % sortlocale=en,
+    % natbib=true,
+    url=false, 
+    doi=false,
+    % eprint=false,
+    maxbibnames=99
+]{biblatex}
+% \bibstyle{}
+\addbibresource{main.bib}
+
+\usepackage[]{hyperref}
+\hypersetup{
+    colorlinks=true,
+}
+
+% \usepackage{bookmark}
+
+%\usepackage{gentium}
+% \usepackage{mathptmx} % Use Times Font
+% \usepackage{textcomp}
+
+
+\usepackage{graphicx} % Required for including pictures
+% \usepackage[pdftex,linkcolor=black,pdfborder={0 0 0}]{hyperref} % Format links for pdf
+\usepackage{calc} % To reset the counter in the document after title page
+\usepackage{enumitem} % Includes lists
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage[nice]{nicefrac}
+\usepackage[all]{xy}
+\usepackage{amssymb}
+\usepackage[skip=5pt plus1pt, indent=20pt]{parskip}
+\usepackage{scalerel}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem*{remark}{Remark}
+
+
+
+\frenchspacing % No double spacing between sentences
+\linespread{1.2} % Set linespace
+\usepackage[a4paper, lmargin=0.1666\paperwidth, rmargin=0.1666\paperwidth, tmargin=0.1111\paperheight, bmargin=0.1111\paperheight]{geometry} %margins
+%\usepackage{parskip}
+
+% \usepackage[all]{nowidow} % Tries to remove widows
+% \usepackage[protrusion=true,expansion=true]{microtype} % Improves typography, load after fontpackage is selected
+
+
+
+%-----------------------
+% Set pdf information and add title, fill in the fields
+%-----------------------
+% \hypersetup{ 	
+% pdfsubject = {},
+% pdftitle = {},
+% pdfauthor = {}
+% }
+
+\graphicspath{ {./figures/} }
