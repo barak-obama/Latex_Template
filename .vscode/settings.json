@@ -9,11 +9,13 @@
   "latex-workshop.latex.recipes": [
     {
       "name": "xelatex -> biber -> xelatex",
-      "tools": ["xelatex", "biber", "xelatex", "xelatex", "mv_pdf"]
+      // "tools": ["xelatex", "biber", "xelatex", "xelatex", "mv_pdf"]
+      "tools": ["xelatex", "biber", "xelatex", "xelatex"]
     },
     {
       "name": "pdflatex -> biber -> pdflatex",
-      "tools": ["pdflatex", "biber", "pdflatex", "pdflatex", "mv_pdf"]
+      // "tools": ["pdflatex", "biber", "pdflatex", "pdflatex", "mv_pdf"]
+      "tools": ["pdflatex", "biber", "pdflatex", "pdflatex"]
     },
     {
       "name": "xelatex",

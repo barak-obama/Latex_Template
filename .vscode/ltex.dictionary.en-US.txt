@@ -6,3 +6,6 @@ weakly-acylindrical
 non-elementry
 acylindrical
 decompositions
+equationally
+noetherian
+orientable
