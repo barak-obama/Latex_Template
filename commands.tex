@@ -64,6 +64,16 @@
 \newcommand*{\nb}[1]{\lVert #1 \rVert}
 \newcommand{\size}[1]{\left| #1 \right|}
 
+\newcommand{\into}{\hookrightarrow}
+\newcommand{\onto}{\twoheadrightarrow}
+\newcommand{\smsub}[1]{{}_{#1}}
+\newcommand\restr[2]{{% we make the whole thing an ordinary symbol
+  \left.\kern-\nulldelimiterspace % automatically resize the bar with \right
+  #1 % the function
+  \vphantom{\big|} % pretend it's a little taller at normal size
+  \right|_{#2} % this is the delimiter
+  }}
+
 
 \usepackage{amssymb}
 \newcommand{\act}{\curvearrowright}
@@ -76,9 +86,15 @@
 \DeclareMathOperator{\mcg}{MCG}
 \DeclareMathOperator{\fix}{\trem}
 \DeclareMathOperator{\trem}{Trm}
+\DeclareMathOperator{\stab}{Stab}
 \DeclareMathOperator{\conj}{Conj}
+\DeclareMathOperator{\cay}{Cay}
 \newcommand{\sker}{\underset{\rightarrow}{\ker}}
 \global\long\def\surely{\omega\text{-almost surely}}%
 \DeclareMathOperator{\lse}{\mathcal{LSE}}
 \DeclareMathOperator{\lsc}{\mathcal{LSC}}
 \DeclareMathOperator{\lsh}{\mathcal{LSH}}
+
+
+\DeclareMathOperator{\nesdcm}{\mathfrak{\Gamma}}
+

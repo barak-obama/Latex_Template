@@ -1,4 +1,5 @@
-\usepackage{csquotes}
+
+% Bibliography
 \usepackage[
     % backend=biber,
     style=alphabetic,
@@ -12,33 +13,37 @@
 % \bibstyle{}
 \addbibresource{main.bib}
 
+
+% Cross-Reference
 \usepackage[]{hyperref}
 \hypersetup{
     colorlinks=true,
 }
 
-% \usepackage{bookmark}
-
-%\usepackage{gentium}
-% \usepackage{mathptmx} % Use Times Font
-% \usepackage{textcomp}
 
 
+
+
+% Photos
 \usepackage{graphicx} % Required for including pictures
-% \usepackage[pdftex,linkcolor=black,pdfborder={0 0 0}]{hyperref} % Format links for pdf
+\graphicspath{ {./figures/} }
+
+
 \usepackage{calc} % To reset the counter in the document after title page
 \usepackage{enumitem} % Includes lists
 \usepackage{bm}
 \usepackage{amsmath}
 \usepackage{amsthm}
-\usepackage[nice]{nicefrac}
+\usepackage[nice]{nicefrac} % Nice frac, i.e. a/b and not \frac{}{}
 \usepackage[all]{xy}
 \usepackage{amssymb}
 \usepackage[skip=5pt plus1pt, indent=20pt]{parskip}
 \usepackage{scalerel}
+\usepackage{csquotes}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}{Proposition}[section]
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
 \newtheorem*{remark}{Remark}
@@ -64,4 +69,3 @@
 % pdfauthor = {}
 % }
 
-\graphicspath{ {./figures/} }
